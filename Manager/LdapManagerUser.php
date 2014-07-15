@@ -27,7 +27,7 @@ class LdapManagerUser implements LdapManagerUserInterface
      */
     public function exists($username)
     {
-        $this
+       return (bool) $this
             ->setUsername($username)
             ->addLdapUser()
             ;
