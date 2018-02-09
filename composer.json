@@ -2,7 +2,7 @@
     "name": "cc/imag-ldap-bundle",
     "description": "LDAP Bundle for Symfony 2",
     "homepage": "http://github.com/BorisMorel/LdapBundle",
-    "license": "CeCILL",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Boris Morel",
@@ -34,7 +34,7 @@
     "require": {
         "php": ">=5.3.3",
         "ext-ldap": "*",
-        "symfony/symfony": ">2.0"
+        "symfony/symfony": "^2.0"
     },
     "autoload": {
         "psr-0": { "IMAG\\LdapBundle": "" }
